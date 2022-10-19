@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_8_155)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 16.8947C20.0759 16.8947 16.8947 20.0759 16.8947 24C16.8947 27.9241 20.0759 31.1053 24 31.1053C27.9241 31.1053 31.1053 27.9241 31.1053 24C31.1053 20.0759 27.9241 16.8947 24 16.8947ZM9 24C9 15.7157 15.7157 9 24 9C32.2843 9 39 15.7157 39 24C39 32.2843 32.2843 39 24 39C15.7157 39 9 32.2843 9 24Z" fill="url(#paint0_angular_8_155)"/>
+</g>
+<defs>
+<filter id="filter0_d_8_155" x="0.964286" y="0.964286" width="46.0714" height="46.0714" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="4.01786"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0 0 0 0 0 1 0 0 0 0.23 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8_155"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8_155" result="shape"/>
+</filter>
+<radialGradient id="paint0_angular_8_155" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 24) rotate(90) scale(11.0526)">
+<stop stop-color="#03C1FD"/>
+<stop offset="0.385417" stop-color="#00FFE0"/>
+<stop offset="0.75" stop-color="#4B0CFF"/>
+<stop offset="1" stop-color="#180858"/>
+</radialGradient>
+</defs>
+</svg>
