@@ -3,8 +3,12 @@
     <div class="indicator">
       <div class="value-2">
         <div class="overlap-group">
-          <div class="value-3 valign-text-middle opensans-bold-white-24px">{{ value }}</div>
-          <div class="title-1 valign-text-middle opensans-normal-white-16px">{{ title }}</div>
+          <div class="value-3 valign-text-middle opensans-bold-white-24px">
+            {{ value }}
+          </div>
+          <div class="title-1 valign-text-middle opensans-normal-white-16px">
+            {{ title }}
+          </div>
         </div>
       </div>
     </div>

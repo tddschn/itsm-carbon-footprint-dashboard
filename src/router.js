@@ -1,9 +1,13 @@
 import Vue from "vue";
 import Router from "vue-router";
-import MacBookPro164 from "./components/MacBookPro164";
-import MacBookPro166 from "./components/MacBookPro166";
-import MacBookPro165 from "./components/MacBookPro165";
-import { macBookPro164Data, macBookPro166Data, macBookPro165Data } from "./data";
+import MacBookPro164 from "./components/MacBookPro164.vue";
+import MacBookPro166 from "./components/MacBookPro166.vue";
+import MacBookPro165 from "./components/MacBookPro165.vue";
+import {
+  macBookPro164Data,
+  macBookPro166Data,
+  macBookPro165Data,
+} from "./data";
 
 Vue.use(Router);
 

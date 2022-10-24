@@ -1,28 +1,45 @@
 <template>
   <div class="container-center-horizontal">
-    <div class="macbook-pro-16-6 screen" onclick="window.open('macbook-pro-16-4.html', '_self');">
-      <div class="flex-col-1" :style="{ 'background-image': 'url(' + flexCol + ')' }">
+    <div class="macbook-pro-16-6 screen">
+      <div
+        class="flex-col-1"
+        :style="{ 'background-image': 'url(' + flexCol + ')' }"
+      >
         <div class="frame-container-2">
           <frame159 :className="frame159Props.className" />
           <div class="frame-34-3">
-            <div class="carbon-footprint-tracking-on-itsm teddy-72-black-white-48px">{{ carbonFootprintTrackingOnItsm }}</div>
+            <div
+              class="carbon-footprint-tracking-on-itsm teddy-72-black-white-48px"
+            >
+              {{ carbonFootprintTrackingOnItsm }}
+            </div>
             <div class="frame-34-4">
               <div class="frame-1027">
                 <div class="quarter">
-                  <div class="period-3 teddy-72-bold-white-20px">{{ period1 }}</div>
+                  <div class="period-3 teddy-72-bold-white-20px">
+                    {{ period1 }}
+                  </div>
                 </div>
                 <div class="frame-1027-item">
-                  <div class="period teddy-72-bold-white-20px">{{ period2 }}</div>
+                  <div class="period teddy-72-bold-white-20px">
+                    {{ period2 }}
+                  </div>
                 </div>
                 <div class="frame-1027-item">
-                  <div class="period teddy-72-bold-white-20px">{{ period3 }}</div>
+                  <div class="period teddy-72-bold-white-20px">
+                    {{ period3 }}
+                  </div>
                 </div>
                 <div class="frame-1027-item">
-                  <div class="period teddy-72-bold-white-20px">{{ period4 }}</div>
+                  <div class="period teddy-72-bold-white-20px">
+                    {{ period4 }}
+                  </div>
                 </div>
               </div>
               <div class="frame-6">
-                <div class="surname teddy-72-black-white-20px">{{ surname }}</div>
+                <div class="surname teddy-72-black-white-20px">
+                  {{ surname }}
+                </div>
                 <img
                   class="frame-4"
                   src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/frame-2@2x.svg"
@@ -35,25 +52,37 @@
         <div class="flex-row-2">
           <div class="frame-container-3">
             <div class="frame-10">
-              <div class="period-1 teddy-72-italic-normal-white-14px">{{ period5 }}</div>
+              <div class="period-1 teddy-72-italic-normal-white-14px">
+                {{ period5 }}
+              </div>
               <div class="frame-35-1">
                 <div class="frame-35">
-                  <div class="value-9 opensans-bold-cyan--aqua-48px">{{ value }}</div>
+                  <div class="value-9 opensans-bold-cyan--aqua-48px">
+                    {{ value }}
+                  </div>
                   <img
                     class="arro"
                     src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/arro-3@2x.svg"
                     alt="arro"
                   />
                 </div>
-                <div class="period-2 teddy-72-light-white-12px">{{ period6 }}</div>
+                <div class="period-2 teddy-72-light-white-12px">
+                  {{ period6 }}
+                </div>
               </div>
             </div>
             <div class="frame-10">
-              <div class="period-1 teddy-72-italic-normal-white-14px">{{ period7 }}</div>
+              <div class="period-1 teddy-72-italic-normal-white-14px">
+                {{ period7 }}
+              </div>
               <div class="frame-35">
                 <div class="value-10 opensans-bold-cyan--aqua-48px">
-                  <span class="opensans-bold-cyan--aqua-48px">{{ spanText1 }}</span
-                  ><span class="opensans-bold-cyan--aqua-24px">{{ spanText2 }}</span>
+                  <span class="opensans-bold-cyan--aqua-48px">{{
+                    spanText1
+                  }}</span
+                  ><span class="opensans-bold-cyan--aqua-24px">{{
+                    spanText2
+                  }}</span>
                 </div>
                 <img
                   class="arro"
@@ -61,14 +90,22 @@
                   alt="arro"
                 />
               </div>
-              <div class="period-2 teddy-72-light-white-12px">{{ period8 }}</div>
+              <div class="period-2 teddy-72-light-white-12px">
+                {{ period8 }}
+              </div>
             </div>
             <div class="frame-10">
-              <div class="period-1 teddy-72-italic-normal-white-14px">{{ period9 }}</div>
+              <div class="period-1 teddy-72-italic-normal-white-14px">
+                {{ period9 }}
+              </div>
               <div class="frame-35">
                 <div class="value-11 opensans-bold-cyan--aqua-48px">
-                  <span class="opensans-bold-cyan--aqua-48px">{{ spanText3 }}</span
-                  ><span class="opensans-bold-cyan--aqua-24px">{{ spanText4 }}</span>
+                  <span class="opensans-bold-cyan--aqua-48px">{{
+                    spanText3
+                  }}</span
+                  ><span class="opensans-bold-cyan--aqua-24px">{{
+                    spanText4
+                  }}</span>
                 </div>
                 <img
                   class="arro-1"
@@ -108,22 +145,37 @@
               <div class="bubble-19"></div>
               <div class="investments">
                 <div class="tittle">{{ tittle1 }}</div>
-                <frame1028 :frame35Props="frame1028Props.frame35Props" :frame352Props="frame1028Props.frame352Props" />
+                <frame1028
+                  :frame35Props="frame1028Props.frame35Props"
+                  :frame352Props="frame1028Props.frame352Props"
+                />
               </div>
               <div class="investments-1">
-                <div class="tittle-1 teddy-72-black-white-14px">{{ tittle2 }}</div>
+                <div class="tittle-1 teddy-72-black-white-14px">
+                  {{ tittle2 }}
+                </div>
                 <div class="frame-1028">
                   <div class="frame-3">
-                    <div class="tittle-2 teddy-72-regular-normal-white-10px">{{ tittle3 }}</div>
-                    <frame35 :value="frame35Props.value" :className="frame35Props.className" />
+                    <div class="tittle-2 teddy-72-regular-normal-white-10px">
+                      {{ tittle3 }}
+                    </div>
+                    <frame35
+                      :value="frame35Props.value"
+                      :className="frame35Props.className"
+                    />
                   </div>
                   <div class="frame-3">
-                    <div class="tittle-3 teddy-72-regular-normal-white-10px">{{ tittle4 }}</div>
+                    <div class="tittle-3 teddy-72-regular-normal-white-10px">
+                      {{ tittle4 }}
+                    </div>
                     <frame352 :children="frame352Props.children" />
                   </div>
                 </div>
               </div>
-              <investments :tittle="investments1Props.tittle" :frame353Props="investments1Props.frame353Props" />
+              <investments
+                :tittle="investments1Props.tittle"
+                :frame353Props="investments1Props.frame353Props"
+              />
               <investments
                 :tittle="investments2Props.tittle"
                 :className="investments2Props.className"
@@ -132,7 +184,10 @@
             </div>
             <div class="bubble-20"></div>
             <div class="overlap-group2-2">
-              <investments2 :tittle="investments2Props2.tittle" :frame1028Props="investments2Props2.frame1028Props" />
+              <investments2
+                :tittle="investments2Props2.tittle"
+                :frame1028Props="investments2Props2.frame1028Props"
+              />
             </div>
             <div class="bubble-21"></div>
           </div>

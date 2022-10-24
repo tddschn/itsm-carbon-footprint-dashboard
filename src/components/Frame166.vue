@@ -2,7 +2,9 @@
   <div :class="[`frame-166`, className || ``]">
     <x-title :children="titleProps.children" />
     <div class="value-8">
-      <div class="amount-2 valign-text-middle opensans-bold-white-24px">{{ amount }}</div>
+      <div class="amount-2 valign-text-middle opensans-bold-white-24px">
+        {{ amount }}
+      </div>
       <img
         class="arrow-up-1"
         src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/arrow-up@2x.svg"

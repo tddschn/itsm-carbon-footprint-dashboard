@@ -2,9 +2,13 @@
   <div class="mini-indicators-active-users">
     <div class="overlap-group3">
       <div class="value-4">
-        <div class="value-5 valign-text-middle opensans-bold-white-24px">{{ value }}</div>
+        <div class="value-5 valign-text-middle opensans-bold-white-24px">
+          {{ value }}
+        </div>
       </div>
-      <div class="title-2 valign-text-middle opensans-normal-white-16px">{{ title }}</div>
+      <div class="title-2 valign-text-middle opensans-normal-white-16px">
+        {{ title }}
+      </div>
     </div>
     <div class="overlap-group2-1">
       <div class="icon-1"></div>

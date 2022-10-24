@@ -1,11 +1,18 @@
 <template>
   <div class="frame-1028-1">
     <div class="frame-3-1">
-      <div class="tittle-4 teddy-72-regular-normal-white-12px">Efficiency Improvement</div>
-      <frame35 :value="frame35Props.value" :className="frame35Props.className" />
+      <div class="tittle-4 teddy-72-regular-normal-white-12px">
+        Efficiency Improvement
+      </div>
+      <frame35
+        :value="frame35Props.value"
+        :className="frame35Props.className"
+      />
     </div>
     <div class="frame-3-1">
-      <div class="tittle-4 teddy-72-regular-normal-white-12px">Carbon Consumption</div>
+      <div class="tittle-4 teddy-72-regular-normal-white-12px">
+        Carbon Consumption
+      </div>
       <frame352 :children="frame352Props.children" />
     </div>
   </div>

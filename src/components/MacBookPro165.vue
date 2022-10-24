@@ -1,30 +1,45 @@
 <template>
   <div class="container-center-horizontal">
-    <div class="macbook-pro-16-5 screen" onclick="window.open('macbook-pro-16-6.html', '_self');">
-      <div class="flex-col-2" :style="{ 'background-image': 'url(' + flexCol + ')' }">
+    <div class="macbook-pro-16-5 screen">
+      <div
+        class="flex-col-2"
+        :style="{ 'background-image': 'url(' + flexCol + ')' }"
+      >
         <div class="frame-container-4">
           <frame159 :className="frame159Props.className" />
           <div class="frame-34-5">
-            <div class="carbon-footprint-tracking-on-itsm-1 teddy-72-black-white-48px">
+            <div
+              class="carbon-footprint-tracking-on-itsm-1 teddy-72-black-white-48px"
+            >
               {{ carbonFootprintTrackingOnItsm }}
             </div>
             <div class="frame-34-6">
               <div class="frame-1028-3">
                 <div class="quarter-1">
-                  <div class="period-7 teddy-72-bold-white-20px">{{ period1 }}</div>
+                  <div class="period-7 teddy-72-bold-white-20px">
+                    {{ period1 }}
+                  </div>
                 </div>
                 <div class="frame-1028-item">
-                  <div class="period-4 teddy-72-bold-white-20px">{{ period2 }}</div>
+                  <div class="period-4 teddy-72-bold-white-20px">
+                    {{ period2 }}
+                  </div>
                 </div>
                 <div class="frame-1028-item">
-                  <div class="period-4 teddy-72-bold-white-20px">{{ period3 }}</div>
+                  <div class="period-4 teddy-72-bold-white-20px">
+                    {{ period3 }}
+                  </div>
                 </div>
                 <div class="frame-1028-item">
-                  <div class="period-4 teddy-72-bold-white-20px">{{ period4 }}</div>
+                  <div class="period-4 teddy-72-bold-white-20px">
+                    {{ period4 }}
+                  </div>
                 </div>
               </div>
               <div class="frame-6-1">
-                <div class="incident teddy-72-black-white-20px">{{ incident }}</div>
+                <div class="incident teddy-72-black-white-20px">
+                  {{ incident }}
+                </div>
                 <img
                   class="frame-5"
                   src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/frame-5@2x.svg"
@@ -37,25 +52,37 @@
         <div class="flex-row-3">
           <div class="frame-container-5">
             <div class="frame-10-1">
-              <div class="period-5 teddy-72-italic-normal-white-14px">{{ period5 }}</div>
+              <div class="period-5 teddy-72-italic-normal-white-14px">
+                {{ period5 }}
+              </div>
               <div class="frame-35-9">
                 <div class="frame-35-8">
-                  <div class="value-16 opensans-bold-cyan--aqua-48px">{{ value }}</div>
+                  <div class="value-16 opensans-bold-cyan--aqua-48px">
+                    {{ value }}
+                  </div>
                   <img
                     class="arro-3"
                     src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/arro-3@2x.svg"
                     alt="arro"
                   />
                 </div>
-                <div class="period-6 teddy-72-light-white-12px">{{ period6 }}</div>
+                <div class="period-6 teddy-72-light-white-12px">
+                  {{ period6 }}
+                </div>
               </div>
             </div>
             <div class="frame-10-1">
-              <div class="period-5 teddy-72-italic-normal-white-14px">{{ period7 }}</div>
+              <div class="period-5 teddy-72-italic-normal-white-14px">
+                {{ period7 }}
+              </div>
               <div class="frame-35-8">
                 <div class="value-16 opensans-bold-cyan--aqua-48px">
-                  <span class="opensans-bold-cyan--aqua-48px">{{ spanText1 }}</span
-                  ><span class="opensans-bold-cyan--aqua-24px">{{ spanText2 }}</span>
+                  <span class="opensans-bold-cyan--aqua-48px">{{
+                    spanText1
+                  }}</span
+                  ><span class="opensans-bold-cyan--aqua-24px">{{
+                    spanText2
+                  }}</span>
                 </div>
                 <img
                   class="arro-3"
@@ -63,14 +90,22 @@
                   alt="arro"
                 />
               </div>
-              <div class="period-6 teddy-72-light-white-12px">{{ period8 }}</div>
+              <div class="period-6 teddy-72-light-white-12px">
+                {{ period8 }}
+              </div>
             </div>
             <div class="frame-10-1">
-              <div class="period-5 teddy-72-italic-normal-white-14px">{{ period9 }}</div>
+              <div class="period-5 teddy-72-italic-normal-white-14px">
+                {{ period9 }}
+              </div>
               <div class="frame-35-8">
                 <div class="value-16 opensans-bold-cyan--aqua-48px">
-                  <span class="opensans-bold-cyan--aqua-48px">{{ spanText3 }}</span
-                  ><span class="opensans-bold-cyan--aqua-24px">{{ spanText4 }}</span>
+                  <span class="opensans-bold-cyan--aqua-48px">{{
+                    spanText3
+                  }}</span
+                  ><span class="opensans-bold-cyan--aqua-24px">{{
+                    spanText4
+                  }}</span>
                 </div>
                 <img
                   class="arro-4"
@@ -78,7 +113,9 @@
                   alt="arro"
                 />
               </div>
-              <div class="period-6 teddy-72-black-white-12px">{{ period10 }}</div>
+              <div class="period-6 teddy-72-black-white-12px">
+                {{ period10 }}
+              </div>
             </div>
           </div>
           <div class="overlap-group3-2">
@@ -105,7 +142,9 @@
                 <div class="bubble-39"></div>
                 <div class="bubble-40"></div>
                 <div class="investments-7">
-                  <div class="tittle-11 teddy-72-black-white-20px">{{ tittle1 }}</div>
+                  <div class="tittle-11 teddy-72-black-white-20px">
+                    {{ tittle1 }}
+                  </div>
                   <frame1028
                     :frame35Props="frame1028Props.frame35Props"
                     :frame352Props="frame1028Props.frame352Props"
@@ -122,16 +161,28 @@
                   :frame353Props="investmentsProps.frame353Props"
                 />
                 <div class="investments-8">
-                  <div class="tittle-10 teddy-72-black-white-12px">{{ tittle2 }}</div>
-                  <frame353 :frame35Props="frame3531Props.frame35Props" :frame352Props="frame3531Props.frame352Props" />
+                  <div class="tittle-10 teddy-72-black-white-12px">
+                    {{ tittle2 }}
+                  </div>
+                  <frame353
+                    :frame35Props="frame3531Props.frame35Props"
+                    :frame352Props="frame3531Props.frame352Props"
+                  />
                 </div>
-                <div class="tittle-12 teddy-72-black-white-12px">{{ tittle3 }}</div>
+                <div class="tittle-12 teddy-72-black-white-12px">
+                  {{ tittle3 }}
+                </div>
               </div>
               <div class="bubble-41"></div>
               <div class="overlap-group2-3">
                 <div class="investments-9">
-                  <p class="tittle-10 teddy-72-black-white-12px">{{ tittle4 }}</p>
-                  <frame353 :frame35Props="frame3532Props.frame35Props" :frame352Props="frame3532Props.frame352Props" />
+                  <p class="tittle-10 teddy-72-black-white-12px">
+                    {{ tittle4 }}
+                  </p>
+                  <frame353
+                    :frame35Props="frame3532Props.frame35Props"
+                    :frame352Props="frame3532Props.frame352Props"
+                  />
                 </div>
               </div>
               <div class="bubble-42"></div>

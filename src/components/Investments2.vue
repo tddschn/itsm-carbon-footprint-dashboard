@@ -1,7 +1,10 @@
 <template>
   <div :class="[`investments-5`, className || ``]">
     <p class="tittle-8 teddy-72-black-white-14px">{{ tittle }}</p>
-    <frame1028 :frame35Props="frame1028Props.frame35Props" :frame352Props="frame1028Props.frame352Props" />
+    <frame1028
+      :frame35Props="frame1028Props.frame35Props"
+      :frame352Props="frame1028Props.frame352Props"
+    />
   </div>
 </template>
 

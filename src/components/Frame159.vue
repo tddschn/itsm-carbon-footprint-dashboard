@@ -10,7 +10,9 @@
     </div>
     <div class="frame-33">
       <div class="frame-33-item teddy-72-black-white-18px">Dashboard</div>
-      <div class="frame-33-item teddy-72-regular-normal-star-dust-18px">Settings</div>
+      <div class="frame-33-item teddy-72-regular-normal-star-dust-18px">
+        Settings
+      </div>
       <img
         class="frame"
         src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/frame@2x.svg"

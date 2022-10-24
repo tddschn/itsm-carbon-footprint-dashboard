@@ -1,7 +1,10 @@
 <template>
   <div :class="[`investments-2`, className || ``]">
     <div class="tittle-6 teddy-72-black-white-12px" v-html="tittle"></div>
-    <frame353 :frame35Props="frame353Props.frame35Props" :frame352Props="frame353Props.frame352Props" />
+    <frame353
+      :frame35Props="frame353Props.frame35Props"
+      :frame352Props="frame353Props.frame352Props"
+    />
   </div>
 </template>
 

@@ -1,7 +1,9 @@
 <template>
   <div :class="[`frame-160`, className || ``]">
     <x-title :children="titleProps.children" />
-    <div class="amount-1 valign-text-middle opensans-bold-white-24px">{{ amount }}</div>
+    <div class="amount-1 valign-text-middle opensans-bold-white-24px">
+      {{ amount }}
+    </div>
   </div>
 </template>
 

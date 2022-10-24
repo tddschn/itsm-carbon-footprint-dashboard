@@ -1,10 +1,12 @@
 <template>
   <div class="container-center-horizontal">
-    <div class="macbook-pro-16-4 screen" onclick="window.open('macbook-pro-16-5.html', '_self');">
+    <div class="macbook-pro-16-4 screen">
       <frame159 />
       <div class="flex-row">
         <div class="frame-170">
-          <div class="address teddy-72-regular-normal-white-20px">{{ address }}</div>
+          <div class="address teddy-72-regular-normal-white-20px">
+            {{ address }}
+          </div>
           <div class="frame-169">
             <h1 class="text-1 teddy-72-black-white-48px">{{ text1 }}</h1>
             <div class="frame-34">
@@ -52,9 +54,15 @@
       <div class="flex-row-1">
         <div class="frame-1026">
           <x-table :name="xTable1Props.name" />
-          <x-table :name="xTable2Props.name" :className="xTable2Props.className" />
+          <x-table
+            :name="xTable2Props.name"
+            :className="xTable2Props.className"
+          />
           <x-table :name="xTable3Props.name" />
-          <x-table :name="xTable4Props.name" :className="xTable4Props.className" />
+          <x-table
+            :name="xTable4Props.name"
+            :className="xTable4Props.className"
+          />
         </div>
         <div class="overlap-group5">
           <div class="bg_lines"></div>
@@ -64,7 +72,10 @@
           <div class="bg_lines-4"></div>
           <div class="group-33">
             <div class="frame-container-1">
-              <frame160 :amount="frame1601Props.amount" :titleProps="frame1601Props.titleProps" />
+              <frame160
+                :amount="frame1601Props.amount"
+                :titleProps="frame1601Props.titleProps"
+              />
               <frame160
                 :amount="frame1602Props.amount"
                 :className="frame1602Props.className"
@@ -126,7 +137,10 @@
                   src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/vector-8@2x.svg"
                   alt="Vector 8"
                 />
-                <frame166 :amount="frame1661Props.amount" :titleProps="frame1661Props.titleProps" />
+                <frame166
+                  :amount="frame1661Props.amount"
+                  :titleProps="frame1661Props.titleProps"
+                />
               </div>
               <frame166
                 :amount="frame1662Props.amount"
@@ -136,7 +150,11 @@
               <div class="frame-165">
                 <x-title :children="xTitle1Props.children" />
                 <div class="value-1">
-                  <div class="amount valign-text-middle opensans-bold-white-24px">{{ amount1 }}</div>
+                  <div
+                    class="amount valign-text-middle opensans-bold-white-24px"
+                  >
+                    {{ amount1 }}
+                  </div>
                   <img
                     class="arrow-up"
                     src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/arrow-up@2x.svg"
@@ -147,7 +165,11 @@
               <div class="frame-167">
                 <x-title :children="xTitle2Props.children" />
                 <div class="value-1">
-                  <div class="amount valign-text-middle opensans-bold-white-24px">{{ amount2 }}</div>
+                  <div
+                    class="amount valign-text-middle opensans-bold-white-24px"
+                  >
+                    {{ amount2 }}
+                  </div>
                   <img
                     class="arrow-up"
                     src="https://anima-uploads.s3.amazonaws.com/projects/634795d892cbf5aa39af8b08/releases/634795eb56dffe0dd51df4f3/img/arrow-up-3@2x.svg"
