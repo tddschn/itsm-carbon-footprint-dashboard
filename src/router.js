@@ -15,6 +15,11 @@ export default new Router({
   mode: "history",
   routes: [
     {
+      path: "/",
+      component: MacBookPro164,
+      props: { ...macBookPro164Data },
+    },
+    {
       path: "/macbook-pro-16-6",
       component: MacBookPro166,
       props: { ...macBookPro166Data },
@@ -23,11 +28,6 @@ export default new Router({
       path: "/macbook-pro-16-5",
       component: MacBookPro165,
       props: { ...macBookPro165Data },
-    },
-    {
-      path: "*",
-      component: MacBookPro164,
-      props: { ...macBookPro164Data },
     },
   ],
 });
