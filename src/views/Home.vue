@@ -4,3 +4,8 @@
   </div>
 </template>
 
+<style lang="sass">
+h1
+    // center the text
+    text-align: center
+</style>
