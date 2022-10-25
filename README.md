@@ -1,5 +1,10 @@
 # ITSM Carbon Footprint Dashboard
 
+- [ITSM Carbon Footprint Dashboard](#itsm-carbon-footprint-dashboard)
+  - [How the project was built](#how-the-project-was-built)
+  - [Develop](#develop)
+  - [Deploy](#deploy)
+
 ## How the project was built
 
 Built upon [Anima App](https://www.animaapp.com) exported code.
