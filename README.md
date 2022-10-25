@@ -1,13 +1,10 @@
-# Anima App exported vue code
+# vite branch with Vite
 
-This package was generated automatically with [Anima App](https://www.animaapp.com).
-
-## Instructions
+## Develop
 
 ```
-cd package_code
 npm install
-npm start
+npm run dev
 ```
 
 Open [http://localhost:8080](http://localhost:8080).
