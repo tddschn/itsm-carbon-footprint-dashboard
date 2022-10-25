@@ -31,7 +31,7 @@ Code export option: Vue.js with SASS.
 
 As of Oct 2022, Anima does not support Vue 3 / Vite, the original exported code was using Vue 2 with Vue CLI.
 
-I tried to migrate the Vue 3 but it didn't work, so I'm kind of stuck with the Vue 2 stack for now.
+I tried to migrate the Vue 3 but it didn't work, so I'm kind of stuck with the Vue 2 stack for now. The Vue 3 setup is on branch [`vite`](#the-vite-branch).
 
 See also [changelog](#changelog)
 
@@ -52,7 +52,7 @@ That's because `vue-cli-service serve` won't route non-index.html paths to index
 
 ### The `vite` branch
 
-I created the [`vite`]() branch in an attempt to migrate to Vue 3 with Vite following this [guide](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/).
+I created the [`vite`](https://github.com/tddschn/itsm-carbon-footprint-dashboard/tree/vite) branch in an attempt to migrate to Vue 3 with Vite following this [guide](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/).
 
 If you know why it doesn't work, please let me know. :)
 ## Develop
