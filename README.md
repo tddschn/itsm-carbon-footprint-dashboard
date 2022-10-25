@@ -1,13 +1,23 @@
-# Anima App exported vue code
+# ITSM Carbon Footprint Dashboard
 
-This package was generated automatically with [Anima App](https://www.animaapp.com).
+Built upon [Anima App](https://www.animaapp.com) exported code.
 
-## Instructions
+Export option: Vue.js with SASS.
+
+## Develop
 
 ```
-cd package_code
 npm install
-npm start
+npm run start
 ```
 
-Open [http://localhost:8080](http://localhost:8080).
+## Deploy
+
+Build `/dist` first:
+
+```
+npm run build
+```
+
+Then deploy `/dist` to your web server.
+
