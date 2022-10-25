@@ -1,5 +1,9 @@
 # ITSM Carbon Footprint Dashboard
 
+One of my internship projects.  
+
+A work in progress.  
+
 Live demo: https://itsm-carbon-footprint-dashboard.teddysc.me/
 
 - [ITSM Carbon Footprint Dashboard](#itsm-carbon-footprint-dashboard)
@@ -8,6 +12,7 @@ Live demo: https://itsm-carbon-footprint-dashboard.teddysc.me/
     - [How the project was built](#how-the-project-was-built)
     - [The edit button](#the-edit-button)
     - [Why use the hash history mode in Vue Router?](#why-use-the-hash-history-mode-in-vue-router)
+    - [The `vite` branch](#the-vite-branch)
   - [Develop](#develop)
   - [Deploy](#deploy)
   - [Changelog](#changelog)
@@ -45,6 +50,11 @@ This will break the layout of these elements.
 
 That's because `vue-cli-service serve` won't route non-index.html paths to index.html, so I had to put a hash sign in the URL to work around that restriction when developing locally.
 
+### The `vite` branch
+
+I created the [`vite`]() branch in an attempt to migrate to Vue 3 with Vite following this [guide](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/).
+
+If you know why it doesn't work, please let me know. :)
 ## Develop
 
 ```
