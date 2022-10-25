@@ -5,6 +5,7 @@
   - [Technical details](#technical-details)
     - [How the project was built](#how-the-project-was-built)
     - [The edit button](#the-edit-button)
+    - [Why use the hash history mode in Vue Router?](#why-use-the-hash-history-mode-in-vue-router)
   - [Develop](#develop)
   - [Deploy](#deploy)
   - [Changelog](#changelog)
@@ -37,6 +38,10 @@ This button toggles the value of the `contentEditable` attribute to all elements
 
 Why not convert the elements to `<input>` elements?  
 This will break the layout of these elements.
+
+### Why use the hash history mode in Vue Router?
+
+That's because `vue-cli-service serve` won't route non-index.html paths to index.html, so I had to put a hash sign in the URL to work around that restriction when developing locally.
 
 ## Develop
 

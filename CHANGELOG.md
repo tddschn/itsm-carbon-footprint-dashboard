@@ -15,6 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Vue SFC for the homepage, and `AppLink.vue`.
 - Vue Router for routing
-- Nav bar
-- Edit button
+- Nav bar (`TheNavigation.vue`)
+- Edit button on the nav bar
 - Deployed to Cloudflare Pages: https://itsm-carbon-footprint-dashboard.teddysc.me/ .
