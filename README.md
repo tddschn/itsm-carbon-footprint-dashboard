@@ -1,5 +1,7 @@
 # ITSM Carbon Footprint Dashboard
 
+## How the project was built
+
 Built upon [Anima App](https://www.animaapp.com) exported code.
 
 Export option: Vue.js with SASS.
