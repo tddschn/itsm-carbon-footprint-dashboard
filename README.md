@@ -1,5 +1,7 @@
 # ITSM Carbon Footprint Dashboard
 
+Live demo: https://itsm-carbon-footprint-dashboard.teddysc.me/
+
 - [ITSM Carbon Footprint Dashboard](#itsm-carbon-footprint-dashboard)
   - [Features](#features)
   - [Technical details](#technical-details)
